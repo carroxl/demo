@@ -1,0 +1,17 @@
+server:
+  port: 7080
+
+spring:
+  thymeleaf:
+    cache: false
+    check-template: true
+    check-template-location: true
+    encoding: UTF-8
+    prefix: classpath:/templates/
+    servlet.content-type: text/html
+    suffix: .html
+  jackson:
+    generator:
+      write-numbers-as-strings: true
+    date-format: yyyy-MM-dd HH:mm:ss3
+    time-zone: GMT+8
